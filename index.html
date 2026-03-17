@@ -468,11 +468,87 @@ body {
 
 .footer-note {
   text-align: center;
-  padding: 40px 20px;
+  padding: 40px 20px 20px;
   font-size: 12px;
   color: var(--eliminated);
   font-family: 'Barlow Condensed', sans-serif;
   letter-spacing: 1px;
+}
+
+.references {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 28px;
+  margin-top: 32px;
+}
+
+.references h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.references .ref-category {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--gold);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.references .ref-category:first-of-type {
+  margin-top: 0;
+}
+
+.ref-list {
+  list-style: none;
+}
+
+.ref-list li {
+  font-size: 13px;
+  color: var(--text-muted);
+  padding: 4px 0;
+  line-height: 1.5;
+  border-bottom: 1px solid rgba(255,255,255,0.03);
+}
+
+.ref-list li:last-child { border: none; }
+
+.ref-list a {
+  color: var(--arizona-red);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.ref-list a:hover {
+  color: #FF1A4D;
+  text-decoration: underline;
+}
+
+.ref-list .ref-note {
+  font-style: italic;
+  color: var(--eliminated);
+  font-size: 12px;
+}
+
+.data-disclaimer {
+  margin-top: 20px;
+  padding: 16px;
+  background: rgba(255,255,255,0.02);
+  border-radius: 8px;
+  border-left: 3px solid var(--gold);
+}
+
+.data-disclaimer p {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
 }
 
 @media (max-width: 700px) {
@@ -521,7 +597,7 @@ body {
   <div class="analysis-grid">
     <div class="analysis-card">
       <h3>Offensive Firepower</h3>
-      <p>Arizona's <span class="highlight">120.3 offensive rating</span> ranks 17th nationally. Led by Big 12 Player of the Year <span class="highlight">Jaden Bradley</span> (13.3 PPG, 4.5 APG), leading scorer <span class="highlight">Brayden Burries</span> (16 PPG, 49.7% FG, potential lottery pick), and electric freshman <span class="highlight">Koa Peat</span> (13.8 PPG, 54.8% FG) who dropped 30 in his debut vs. Florida.</p>
+      <p>Arizona's <span class="highlight">120.3 offensive rating</span> ranks 17th nationally. Led by Big 12 Player of the Year <span class="highlight">Jaden Bradley</span> (13.4 PPG, 4.6 APG, 46.1% FG), leading scorer <span class="highlight">Brayden Burries</span> (16 PPG, 49.7% FG, potential lottery pick), and electric freshman <span class="highlight">Koa Peat</span> (13.6 PPG, 53.7% FG) who dropped 30 in his debut vs. Florida.</p>
       <div class="stat-label"><span>Adj. Offensive Efficiency</span><span>120.3 (17th)</span></div>
       <div class="stat-bar"><div class="stat-bar-fill" style="width:88%"></div></div>
     </div>
@@ -839,6 +915,64 @@ body {
     <div class="analysis-card">
       <h3>Champion: Arizona Wildcats</h3>
       <p>Arizona has the <span class="highlight">best combination</span> of elite offense (120.3 ORtg), stout defense (96.1 DRtg), star talent (Burries, Peat, Bradley), elite coaching (Lloyd, Big 12 COY), tournament momentum (9-game win streak, Big 12 champs), and the most <span class="highlight">favorable path</span> of any #1 seed. Their first national title since 1997 is within reach.</p>
+    </div>
+  </div>
+
+  <!-- REFERENCES -->
+  <div class="section-title"><div class="accent"></div>SOURCES & REFERENCES</div>
+  <div class="section-desc">All stats, seedings, odds, and injury data sourced from the following. Predicted scores and game narratives are editorial projections.</div>
+
+  <div class="references">
+    <div class="ref-category">Bracket & Seedings</div>
+    <ul class="ref-list">
+      <li><a href="https://www.ncaa.com/news/basketball-men/mml-official-bracket/2026-03-15/2026-ncaa-tournament-printable-bracket-schedule-march-madness" target="_blank">NCAA.com — 2026 NCAA Tournament Printable Bracket</a> — Official 68-team field, seedings, schedule</li>
+      <li><a href="https://sports.yahoo.com/mens-college-basketball/breaking-news/article/march-madness-bracket-revealed-2026-ncaa-mens-tournament-announced-with-duke-as-no-1-overall-seed-220224455.html" target="_blank">Yahoo Sports — March Madness Bracket Revealed</a> — Full region breakdowns, committee decisions, last four in/out</li>
+    </ul>
+
+    <div class="ref-category">Arizona Team Stats</div>
+    <ul class="ref-list">
+      <li><a href="https://www.sports-reference.com/cbb/schools/arizona/men/2026.html" target="_blank">Sports Reference — 2025-26 Arizona Wildcats</a> — Record: 32-2, PPG: 86.1, SRS: 29.93 (3rd), ORtg: 120.3 (17th), DRtg: 96.1 (10th)</li>
+      <li><a href="https://www.espn.com/mens-college-basketball/player/gamelog/_/id/4432737/jaden-bradley" target="_blank">ESPN — Jaden Bradley Game Log</a> — 13.4 PPG, 3.5 RPG, 4.6 APG, 46.1% FG</li>
+      <li><a href="https://www.sports-reference.com/cbb/players/koa-peat-1.html" target="_blank">Sports Reference — Koa Peat</a> — 13.6 PPG, 5.3 RPG, 53.7% FG, 20.1 PER</li>
+      <li><a href="https://www.azdesertswarm.com/basketball/76873/arizona-wildcats-regular-season-grades-starting-five-bench-rotation-coaching-big12" target="_blank">Arizona Desert Swarm — Regular Season Grades</a> — Burries: 16 PPG, 49.7% FG; team context and analysis</li>
+      <li><a href="https://news.arizona.edu/news/jaden-bradley-named-big-12-player-year-lead-numerous-wildcat-honorees" target="_blank">University of Arizona News — Bradley Named Big 12 POY</a> — Conference awards, Tommy Lloyd COY, Awaka Sixth Man</li>
+      <li><a href="https://en.wikipedia.org/wiki/2025%E2%80%9326_Arizona_Wildcats_men%27s_basketball_team" target="_blank">Wikipedia — 2025-26 Arizona Wildcats MBB</a> — Season overview, Big 12 regular season title, program records</li>
+    </ul>
+
+    <div class="ref-category">Betting Odds & Advanced Metrics</div>
+    <ul class="ref-list">
+      <li><a href="https://www.sportsbookreview.com/picks/ncaa-basketball/march-madness-odds-betting-favorites-2026/" target="_blank">SportsBookReview — March Madness Odds 2026</a> — Arizona +425 pre-Selection, Duke #1 KenPom, top-5 odds breakdown</li>
+      <li><a href="https://kenpom.substack.com/p/the-2026-ncaa-tournament-odds" target="_blank">KenPom Substack — 2026 NCAA Tournament Odds</a> — Top three teams own 48% of championship probability, Purdue contrarian pick</li>
+      <li><a href="https://www.si.com/betting/using-odds-kenpom-to-predict-the-top-seeds-in-2026-ncaa-tournament-01kjramksv8b" target="_blank">Sports Illustrated — Using Odds & KenPom to Predict Seeds</a> — Duke/Arizona/Michigan locked at -20000 for #1 seeds</li>
+      <li><a href="https://www.espn.com/espn/betting/story/_/id/48216458/espn-ncaa-tournament-men-national-championship-final-four-elite-eight-teams" target="_blank">ESPN — NCAA Tournament Championship Odds</a> — Duke +330, Michigan +350, Arizona +400, Florida +700</li>
+      <li><a href="https://sports.yahoo.com/mens-college-basketball/breaking-news/article/march-madness-2026-west-region-bracket-predictions-cinderella-expert-picks-watch-times-schedule-odds-betting-lines-and-more-144511669.html" target="_blank">Yahoo Sports — West Region Preview</a> — Arizona -105 Final Four, -250 Elite 8; Burries potential top-10 draft pick</li>
+    </ul>
+
+    <div class="ref-category">Region Previews & Expert Picks</div>
+    <ul class="ref-list">
+      <li><a href="https://www.cbssports.com/college-basketball/news/2026-ncaa-tournament-west-region-bracket-preview/" target="_blank">CBS Sports — West Region Preview</a> — Arizona path analysis, BYU/Gonzaga injury context, upset candidates</li>
+      <li><a href="https://www.hoopshq.com/bracketology/ncaa-west-regional-analysis-2026" target="_blank">Hoops HQ — West Region Analysis</a> — Arizona 3-point concerns, Gonzaga/BYU injury breakdowns, Lloyd's tournament history</li>
+      <li><a href="https://www.espn.com/mens-college-basketball/story/_/id/48219737/2026-men-ncaa-tournament-jay-bilas-predictions-bracket" target="_blank">ESPN — Jay Bilas Predictions</a> — Game-by-game analysis, Arizona-Purdue Elite 8 preview</li>
+      <li><a href="https://www.on3.com/news/jay-bilas-espn-analysts-predict-elite-eight-final-four-national-championship-in-march-madness-2026-ncaa-tournament/" target="_blank">On3 — ESPN Analysts Predict Final Four</a> — Bilas picks Arizona as national champion; multiple analysts' brackets</li>
+      <li><a href="https://www.si.com/college-basketball/march-madness-brackets-expert-predictions-2026-mens-ncaa-tournament" target="_blank">Sports Illustrated — Expert Bracket Predictions</a> — Forde picks Duke/Houston/Arizona/Michigan Final Four</li>
+    </ul>
+
+    <div class="ref-category">Injury Reports & Upset Factors</div>
+    <ul class="ref-list">
+      <li><a href="https://www.cbssports.com/general/news/march-madness-2026-bracket-ncaa-tournament-picks-predictions-by-top-college-basketball-model/" target="_blank">CBS Sports — SportsLine Model Picks</a> — Alabama 83.5 PPG allowed (worst in 56 years), Louisville Brown Jr. injury, 6-vs-11 upset history</li>
+      <li><a href="https://sports.yahoo.com/mens-college-basketball/live/march-madness-live-updates-duke-earns-mens-overall-no-1-seed-as-brackets-are-set-uconn-enters-womens-ncaa-tournament-as-massive-odds-favorites-144616551.html" target="_blank">Yahoo Sports — Selection Sunday Live Updates</a> — Alabama's Aden Holloway arrested, Duke injury concerns (Foster, Ngongba)</li>
+      <li><a href="https://www.espn.com/espn/betting/story/_/id/48217692/espn-2026-ncaa-tournament-men-bracket-game-odds" target="_blank">ESPN — First Round Odds & BPI Projections</a> — Every first-round spread and win probability</li>
+      <li><a href="https://www.si.com/betting/2026-college-basketball-national-championship-odds-vs-kenpom-rankings-which-teams-have-value" target="_blank">Sports Illustrated — KenPom vs. Championship Odds</a> — Vanderbilt #12 KenPom (dark horse), Virginia value, Tennessee defense</li>
+    </ul>
+
+    <div class="ref-category">Simulation & Probability Models</div>
+    <ul class="ref-list">
+      <li><a href="https://sports.yahoo.com/articles/simulated-march-madness-bracket-10-183600025.html" target="_blank">Yahoo Sports — 10,000 Simulation Results</a> — Houston favored over Florida in South due to defensive profile and home-court edge</li>
+      <li><a href="https://sports.yahoo.com/mens-college-basketball/article/march-madness-2026-which-no-1-seed-in-the-mens-ncaa-tournament-has-the-easiest-road-to-the-championship-hint-its-not-duke-040805582.html" target="_blank">Yahoo Sports — Easiest Road to Championship</a> — Duke's difficult East region path, KenPom contender analysis</li>
+    </ul>
+
+    <div class="data-disclaimer">
+      <p><strong>Disclaimer:</strong> All team records, player statistics, seedings, betting odds, and injury reports are sourced from the publications listed above as of March 15-16, 2026. Predicted game scores, upset outcomes, and the championship narrative are editorial projections informed by this data — not guaranteed predictions. Player stat totals may vary slightly between sources depending on whether conference tournament games are included. Betting odds are subject to change.</p>
     </div>
   </div>
 
